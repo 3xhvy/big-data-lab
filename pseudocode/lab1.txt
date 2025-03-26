@@ -1,0 +1,172 @@
+1.a - Sum Time Spent per Website
+class MAPPER
+    method MAP(LongWritable key, Text content)
+        fields = content.split("\t")
+        if fields.length == 2:
+            EMIT(Text(fields[0]), LongWritable(fields[1].toInt()))
+
+class REDUCER
+    method REDUCE(Text url, Iterable<LongWritable> dws)
+        sum ← 0
+        for d in dws:
+            sum ← sum + d
+        EMIT(url, LongWritable(sum))
+
+1.b - Optimized with Local Aggregation (Combiner)
+
+class MAPPER
+    method Initialize
+        H ← new HashMap<Text, Long>
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split("\t")
+        if fields.length == 2:
+            website = Text(fields[0])
+            timeSpent = fields[1].toInt()
+            H{website} += timeSpent
+
+    method CLOSE
+        for all entry in H:
+            EMIT(entry.key, LongWritable(entry.value))
+
+2.b - Compute Total Sales
+
+class MAPPER
+    method Initialize
+        total_sales ← 0
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split(",")
+        if fields.length >= 4:
+            sales = fields[2].toInt() * fields[3].toInt()
+            total_sales += sales
+
+    method CLOSE
+        EMIT(Text("total_sales"), LongWritable(total_sales))
+
+3.b - CO Sensor Average
+
+class MAPPER
+    method Initialize
+        H ← new HashMap<Text, Float>
+        count ← 0
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split(",")
+        if fields.length >= 3 and fields[1] == "CO":
+            sensor = Text(fields[0])
+            valueCO = fields[2].toFloat()
+            H{sensor} += valueCO
+            count += 1
+
+    method CLOSE
+        for all entry in H:
+            EMIT(entry.key, FloatWritable(entry.value / count))
+
+4 - Geometric Mean Calculation
+
+class MAPPER
+    method Initialize
+        product ← 1
+        count ← 0
+
+    method MAP(LongWritable key, Text content)
+        lines = content.split("\n")
+        for line in lines:
+            product *= line.toInt()
+            count += 1
+
+    method CLOSE
+        EMIT(Text("result"), DoubleWritable(Math.pow(product, 1.0 / count)))
+
+5 - Electricity Bill Calculation
+
+class MAPPER
+    method Initialize
+        H ← new HashMap<Text, Integer>
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split(",")
+        if fields.length >= 2:
+            house = Text(fields[0])
+            consumption = fields[1].toInt()
+
+            if consumption <= 100:
+                total = consumption * 1734
+            elif consumption <= 200:
+                total = 100 * 1734 + (consumption - 100) * 2014
+            elif consumption <= 300:
+                total = 100 * 1734 + 100 * 2014 + (consumption - 200) * 2536
+            else:
+                total = 100 * 1734 + 100 * 2014 + 100 * 2536 + (consumption - 300) * 2834
+
+            H{house} += total
+
+    method CLOSE
+        for all entry in H:
+            EMIT(entry.key, IntWritable(entry.value))
+
+6 - Find Website with Max/Min Time Spent
+
+class MAPPER
+    method Initialize
+        max_url ← ""
+        min_url ← ""
+        max_time ← -1
+        min_time ← 999999
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split("\t")
+        if fields.length == 2:
+            time = fields[1].toInt()
+            if time > max_time:
+                max_time = time
+                max_url = fields[0]
+            if time < min_time:
+                min_time = time
+                min_url = fields[0]
+
+    method CLOSE
+        EMIT(Text("max"), Text(max_url + " " + max_time))
+        EMIT(Text("min"), Text(min_url + " " + min_time))
+
+7 - Employee Salary Stats per Department
+
+class MAPPER
+    method Initialize
+        H ← new HashMap<Text, Integer>
+        max_salary ← new HashMap<Text, Integer>
+        min_salary ← new HashMap<Text, Integer>
+
+    method MAP(LongWritable key, Text content)
+        fields = content.split(",")
+        if fields.length >= 5:
+            department = Text(fields[3])
+            salary = fields[4].toInt()
+
+            H{department} += 1
+            if department not in max_salary or salary > max_salary{department}:
+                max_salary{department} = salary
+            if department not in min_salary or salary < min_salary{department}:
+                min_salary{department} = salary
+
+    method CLOSE
+        for all department in H:
+            EMIT(department, Text(H{department} + " " + max_salary{department} + " " + min_salary{department}))
+
+8 - Count Polygon Edges
+
+class MAPPER
+    method Initialize
+        H ← new HashMap<Text, Integer>
+
+    method MAP(LongWritable key, Text content)
+        lines = content.split("\n")
+        for line in lines:
+            edges = line.split("; ")
+            for edge in edges:
+                H{edge} += 1
+
+    method CLOSE
+        for all entry in H:
+            EMIT(entry.key, IntWritable(entry.value))
