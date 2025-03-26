@@ -1,3 +1,6 @@
+22520542 Hồ Hoàng Huy
+Link github full code + output từ kết quả chạy: https://github.com/3xhvy/big-data-lab
+
 1.a - Sum Time Spent per Website
 class MAPPER
     method MAP(LongWritable key, Text content)
