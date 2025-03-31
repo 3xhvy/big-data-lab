@@ -1,14 +1,10 @@
 package org.example.airsensor;
 
-import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 // Mapper Class
 public class COAverageMapper extends Mapper<LongWritable, Text, Text, FloatWritable> {

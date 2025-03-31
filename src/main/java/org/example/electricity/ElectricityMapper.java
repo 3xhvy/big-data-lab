@@ -1,14 +1,10 @@
 package org.example.electricity;
 
-import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 // Mapper Class
 
