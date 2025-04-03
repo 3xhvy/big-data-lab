@@ -1,0 +1,87 @@
+Bia Heineken lon (thùng 24 lon)	Min: 400000.00, Max: 410000.00
+Bia Tiger lon (thùng 24 lon)	Min: 340000.00, Max: 345000.00
+Bia lon 333 Sài gòn (thùng 24 lon)	Min: 240000.00, Max: 255000.00
+Bánh chưng loại 1,5kg/cái	Min: 150000.00, Max: 180000.00
+Bánh hộp Danisa butter cookie 454gr	Min: 130000.00, Max: 140000.00
+Bí xanh	Min: 18000.00, Max: 40000.00
+Bưởi năm roi (da xanh) (trái 1 kg)	Min: 55000.00, Max: 60000.00
+Bưởi năm roi (trái 1kg)	Min: 40000.00, Max: 45000.00
+Bắp cải Đà Lạt (lặt sạch)	Min: 20000.00, Max: 35000.00
+Bột ngọt Ajinomoto (VN 453gr/gói)	Min: 32000.00, Max: 32000.00
+Cam sành (loại 4-5 trái/kg)	Min: 40000.00, Max: 70000.00
+Chân giò	Min: 160000.00, Max: 170000.00
+Chả Bò	Min: 220000.00, Max: 220000.00
+Chả lụa	Min: 180000.00, Max: 220000.00
+Cà chua	Min: 25000.00, Max: 55000.00
+Cà rốt Đà Lạt	Min: 28000.00, Max: 40000.00
+Cá basa	Min: 60000.00, Max: 60000.00
+Cá bạc má	Min: 80000.00, Max: 80000.00
+Cá diêu hồng (con trên 0,7k/g)	Min: 65000.00, Max: 75000.00
+Cá hường	Min: 90000.00, Max: 90000.00
+Cá lóc nuôi bè (0,5kg/con)	Min: 70000.00, Max: 90000.00
+Cá thu	Min: 250000.00, Max: 350000.00
+Cá thác lác	Min: 350000.00, Max: 350000.00
+Cải xanh	Min: 20000.00, Max: 300000.00
+Dầu ăn tổng hợp Nakydaco (chai 1 lít)	Min: 40000.00, Max: 40000.00
+Dầu ăn tổng hợp Naptune (chai 1 lít)	Min: 55000.00, Max: 55000.00
+Dầu ăn tổng hợp Tường An (chai 1 lít)	Min: 45000.00, Max: 45000.00
+Dưa hấu tròn (trái 4-5kg)	Min: 20000.00, Max: 25000.00
+Dưa leo	Min: 20000.00, Max: 30000.00
+Gạo Tám thơm	Min: 20000.00, Max: 20000.00
+Gà công nghiệp làm sẵn	Min: 50000.00, Max: 80000.00
+Gà mái ta làm sẵn (con 1-1,5kg)	Min: 120000.00, Max: 220000.00
+Gà tam hoàng làm sẵn (con 1-1,5kg)	Min: 70000.00, Max: 90000.00
+Gạo nàng thơm chợ Đào	Min: 23000.00, Max: 26000.00
+Gạo trắng Jasmine	Min: 15000.00, Max: 28000.00
+Gạo tẻ trắng IR 64  25% tấm	Min: 12000.00, Max: 15000.00
+Hoa huệ	Min: 110000.00, Max: 120000.00
+Hành tím Gò Công	Min: 45000.00, Max: 45000.00
+Hạt dưa	Min: 160000.00, Max: 160000.00
+Khoai tây Đà Lạt	Min: 30000.00, Max: 35000.00
+Khổ qua	Min: 20000.00, Max: 35000.00
+Lê TQ	Min: 35000.00, Max: 35000.00
+Lạp xưởng Mai quế lộ loại 1 (Vissan)	Min: 220000.00, Max: 220000.00
+Mãng cầu (4-5 trái/kg)	Min: 60000.00, Max: 130000.00
+Măng lá khô (loại đầu búp măng)	Min: 400000.00, Max: 400000.00
+Mứt bí tăm	Min: 130000.00, Max: 130000.00
+Mứt dừa dẽo	Min: 180000.00, Max: 180000.00
+Mứt gừng Huế	Min: 150000.00, Max: 150000.00
+Mứt hạt sen Huế	Min: 200000.00, Max: 200000.00
+Mứt khoai thanh	Min: 120000.00, Max: 120000.00
+Mứt me	Min: 150000.00, Max: 150000.00
+Mứt mãng cầu	Min: 150000.00, Max: 150000.00
+Mực ống (8-10 con/kg)	Min: 200000.00, Max: 200000.00
+Nho khô (loại lớn)	Min: 180000.00, Max: 180000.00
+Nho tươi Việt Nam	Min: 50000.00, Max: 50000.00
+Nho tươi đỏ (Mỹ)	Min: 200000.00, Max: 200000.00
+Nhãn thường	Min: 25000.00, Max: 25000.00
+Nước ngọt Coca-Cola lon (thùng 24 lon)	Min: 190000.00, Max: 195000.00
+Nước mắm chai 0,65 lít 300 Liên Thành nhãn vàng	Min: 38000.00, Max: 38000.00
+Nấm hương	Min: 45000.00, Max: 45000.00
+Nấm mèo	Min: 18000.00, Max: 22000.00
+Nếp sáp	Min: 20000.00, Max: 27000.00
+Quýt đường loại 1	Min: 50000.00, Max: 100000.00
+Sữa tiệt trùng Vinamilk (220ml)	Min: 7000.00, Max: 7000.00
+Sườn già	Min: 128000.00, Max: 145000.00
+Thịt bò fillet	Min: 300000.00, Max: 355000.00
+Thịt bò đùi	Min: 300000.00, Max: 305000.00
+Thịt cốt lết	Min: 120000.00, Max: 125000.00
+Thịt heo ba rọi	Min: 160000.00, Max: 190000.00
+Thịt heo nạc đùi	Min: 130000.00, Max: 155000.00
+Thịt heo đùi	Min: 130000.00, Max: 150000.00
+Thịt nách	Min: 100000.00, Max: 110000.00
+Thịt vai	Min: 130000.00, Max: 130000.00
+Trứng gà loại 1 các loại (Ba Huân)	Min: 26000.00, Max: 30000.00
+Trứng vịt loại 1 (Vĩnh Thành Đạt)	Min: 28000.00, Max: 30000.00
+Trứng vịt loại 1 các loại (Ba Huân)	Min: 32000.00, Max: 36000.00
+Táo TQ	Min: 35000.00, Max: 35000.00
+Táo khô TQ	Min: 140000.00, Max: 140000.00
+Tôm bạc (100-110 con/kg)	Min: 200000.00, Max: 200000.00
+Tôm đất (tôm đồng)	Min: 200000.00, Max: 200000.00
+Vải Tejin nội khổ 1,40m	Min: 100000.00, Max: 100000.00
+Vịt làm sẵn (con 2-2,2kg)	Min: 85000.00, Max: 85000.00
+Xoài cát Hòa Lộc (2 trái/kg)	Min: 90000.00, Max: 160000.00
+Xà lách Đà Lạt	Min: 35000.00, Max: 45000.00
+Đường RE biên hòa (bịch 1 kg)	Min: 24000.00, Max: 24000.00
+Đường RE biên hòa rời	Min: 20000.00, Max: 20000.00
+Đậu xanh mỡ hạt loại 1	Min: 50000.00, Max: 50000.00
